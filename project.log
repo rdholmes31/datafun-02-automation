@@ -78,3 +78,57 @@
 2026-01-19 15:43:38 | INFO | P02 | WROTE file: case_03.txt
 2026-01-19 15:43:38 | INFO | P02 | Waiting 1 seconds...
 2026-01-19 15:43:39 | INFO | P02 | END main()
+2026-01-19 16:43:46 | INFO | P02 | === RUN START ===
+2026-01-19 16:43:46 | INFO | P02 | project=Automation: Creating Files with Repetition Patterns
+2026-01-19 16:43:46 | INFO | P02 | repo_dir=datafun-02-automation
+2026-01-19 16:43:46 | INFO | P02 | python=3.14.2
+2026-01-19 16:43:46 | INFO | P02 | os=Windows 10
+2026-01-19 16:43:46 | INFO | P02 | shell=powershell
+2026-01-19 16:43:46 | INFO | P02 | cwd=.
+2026-01-19 16:43:46 | INFO | P02 | github_actions=False
+2026-01-19 16:43:46 | INFO | P02 | START main()
+2026-01-19 16:43:46 | INFO | P02 | START FUNCTION 1: create_files_from_numeric_range()
+2026-01-19 16:43:46 | INFO | P02 | Starting year: 2023
+2026-01-19 16:43:46 | INFO | P02 | Ending year: 2026
+2026-01-19 16:43:46 | INFO | P02 | WROTE file: rdholmes31_year_2023.txt
+2026-01-19 16:43:46 | INFO | P02 | WROTE file: rdholmes31_year_2024.txt
+2026-01-19 16:43:46 | INFO | P02 | WROTE file: rdholmes31_year_2025.txt
+2026-01-19 16:43:46 | INFO | P02 | WROTE file: rdholmes31_year_2026.txt
+2026-01-19 16:43:46 | INFO | P02 | START FUNCTION 2: create_files_from_list()
+2026-01-19 16:43:46 | INFO | P02 | Sport list =['golf', 'basketball', 'football']
+2026-01-19 16:43:46 | INFO | P02 | WROTE file: rdholmes31_sport_golf.txt
+2026-01-19 16:43:46 | INFO | P02 | WROTE file: rdholmes31_sport_basketball.txt
+2026-01-19 16:43:46 | INFO | P02 | WROTE file: rdholmes31_sport_football.txt
+2026-01-19 16:43:46 | INFO | P02 | START FUNCTION 3: create_files_using_list_comprehension()
+2026-01-19 16:43:46 | INFO | P02 | WHY: Use list comprehension to TRANSFORM a list into a new list.
+2026-01-19 16:43:46 | INFO | P02 | WHY: They are super compact list transformations.
+2026-01-19 16:43:46 | INFO | P02 | Read it as <do this logic> FOR each <item> IN <list>.
+2026-01-19 16:43:46 | INFO | P02 | Sport list =['golf', 'basketball', 'football']
+2026-01-19 16:43:46 | INFO | P02 | WROTE file: rdholmes31_case_favorite_golf.txt
+2026-01-19 16:43:46 | INFO | P02 | WROTE file: rdholmes31_case_favorite_basketball.txt
+2026-01-19 16:43:46 | INFO | P02 | WROTE file: rdholmes31_case_favorite_football.txt
+2026-01-19 16:43:46 | INFO | P02 | START FUNCTION 4: create_files_periodically()
+2026-01-19 16:43:46 | INFO | P02 | WHY: Use while loop for REPETITIVE tasks with a WAIT or DELAY.
+2026-01-19 16:43:46 | INFO | P02 | Waiting seconds between files: 1
+2026-01-19 16:43:46 | INFO | P02 | Number of files to create: 10
+2026-01-19 16:43:46 | INFO | P02 | WROTE file: rdholmes31_periodic_01.txt
+2026-01-19 16:43:46 | INFO | P02 | Waiting 1 seconds...
+2026-01-19 16:43:47 | INFO | P02 | WROTE file: rdholmes31_periodic_02.txt
+2026-01-19 16:43:47 | INFO | P02 | Waiting 1 seconds...
+2026-01-19 16:43:48 | INFO | P02 | WROTE file: rdholmes31_periodic_03.txt
+2026-01-19 16:43:48 | INFO | P02 | Waiting 1 seconds...
+2026-01-19 16:43:49 | INFO | P02 | WROTE file: rdholmes31_periodic_04.txt
+2026-01-19 16:43:49 | INFO | P02 | Waiting 1 seconds...
+2026-01-19 16:43:50 | INFO | P02 | WROTE file: rdholmes31_periodic_05.txt
+2026-01-19 16:43:50 | INFO | P02 | Waiting 1 seconds...
+2026-01-19 16:43:51 | INFO | P02 | WROTE file: rdholmes31_periodic_06.txt
+2026-01-19 16:43:51 | INFO | P02 | Waiting 1 seconds...
+2026-01-19 16:43:52 | INFO | P02 | WROTE file: rdholmes31_periodic_07.txt
+2026-01-19 16:43:52 | INFO | P02 | Waiting 1 seconds...
+2026-01-19 16:43:53 | INFO | P02 | WROTE file: rdholmes31_periodic_08.txt
+2026-01-19 16:43:53 | INFO | P02 | Waiting 1 seconds...
+2026-01-19 16:43:54 | INFO | P02 | WROTE file: rdholmes31_periodic_09.txt
+2026-01-19 16:43:54 | INFO | P02 | Waiting 1 seconds...
+2026-01-19 16:43:55 | INFO | P02 | WROTE file: rdholmes31_periodic_10.txt
+2026-01-19 16:43:55 | INFO | P02 | Waiting 1 seconds...
+2026-01-19 16:43:56 | INFO | P02 | END main()
